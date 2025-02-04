@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Red Lobster New York Locations - Find Deals Near You</title>
+    <meta name="description" content="Find Red Lobster Happy Hour deals in New York. Locations in NYC, Rochester, and more. Enjoy $5 drinks and $2 off appetizers from 3-6 PM at participating locations.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'rl-red': '#B22222',
+                        'rl-navy': '#0B3D91',
+                        'rl-gold': '#FFD700',
+                        'rl-offwhite': '#FAF3E0',
+                    },
+                    fontFamily: {
+                        'inter': ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <script src="../js/header.js"></script>
+</head>
+<body class="font-inter bg-rl-offwhite">
+    <script>generateHeader();</script>
+    <!-- Header -->
+    <header class="bg-rl-navy text-white py-12">
+        <div class="container mx-auto px-4 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold mb-4">
+                Red Lobster Happy Hour
+                <span class="block text-rl-gold mt-2">New York Locations</span>
+            </h1>
+            <p class="text-xl mb-4">Find your nearest Red Lobster in New York</p>
+            <a href="../index.html" class="text-rl-gold hover:underline">← Back to Main Page</a>
+        </div>
+    </header>
+
+    <!-- Important Notice -->
+    <div class="bg-yellow-50 border-l-4 border-yellow-400 p-4 my-4 mx-auto max-w-4xl">
+        <div class="flex">
+            <div class="flex-shrink-0">
+                <span class="text-yellow-400 text-2xl">⚠️</span>
+            </div>
+            <div class="ml-3">
+                <p class="text-yellow-700">
+                    <span class="font-bold">Important Notice:</span>
+                    Happy Hour deals are not available at the Times Square location.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Locations Section -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4 max-w-6xl">
+            <h2 class="text-3xl font-bold mb-8 text-center">Red Lobster Locations in New York</h2>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- NYC Area -->
+                <div class="bg-rl-offwhite p-8 rounded-lg shadow-lg">
+                    <h3 class="text-2xl font-bold mb-6">NYC Area</h3>
+                    <ul class="space-y-4">
+                        <li>
+                            <a href="https://www.redlobster.com/seafood-restaurants/locations/ny/bronx/"
+                               class="text-rl-red hover:text-red-700 font-semibold flex items-center group">
+                                <span class="mr-2">Bronx</span>
+                                <span class="group-hover:translate-x-1 transition-transform">→</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.redlobster.com/seafood-restaurants/locations/ny/brooklyn/"
+                               class="text-rl-red hover:text-red-700 font-semibold flex items-center group">
+                                <span class="mr-2">Brooklyn</span>
+                                <span class="group-hover:translate-x-1 transition-transform">→</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.redlobster.com/seafood-restaurants/locations/ny/times-square/"
+                               class="text-rl-red hover:text-red-700 font-semibold flex items-center group">
+                                <span class="mr-2">Times Square</span>
+                                <span class="text-xs text-gray-600">(No Happy Hour)</span>
+                                <span class="group-hover:translate-x-1 transition-transform">→</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.redlobster.com/seafood-restaurants/locations/ny/yonkers/"
+                               class="text-rl-red hover:text-red-700 font-semibold flex items-center group">
+                                <span class="mr-2">Yonkers</span>
+                                <span class="group-hover:translate-x-1 transition-transform">→</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Long Island -->
+                <div class="bg-rl-offwhite p-8 rounded-lg shadow-lg">
+                    <h3 class="text-2xl font-bold mb-6">Long Island</h3>
+                    <ul class="space-y-4">
+                        <li>
+                            <a href="https://www.redlobster.com/seafood-restaurants/locations/ny/carle-place/"
+                               class="text-rl-red hover:text-red-700 font-semibold flex items-center group">
+                                <span class="mr-2">Carle Place</span>
+                                <span class="group-hover:translate-x-1 transition-transform">→</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.redlobster.com/seafood-restaurants/locations/ny/copiague/"
+                               class="text-rl-red hover:text-red-700 font-semibold flex items-center group">
+                                <span class="mr-2">Copiague</span>
+                                <span class="group-hover:translate-x-1 transition-transform">→</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.redlobster.com/seafood-restaurants/locations/ny/deer-park/"
+                               class="text-rl-red hover:text-red-700 font-semibold flex items-center group">
+                                <span class="mr-2">Deer Park</span>
+                                <span class="group-hover:translate-x-1 transition-transform">→</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.redlobster.com/seafood-restaurants/locations/ny/hicksville/"
+                               class="text-rl-red hover:text-red-700 font-semibold flex items-center group">
+                                <span class="mr-2">Hicksville</span>
+                                <span class="group-hover:translate-x-1 transition-transform">→</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.redlobster.com/seafood-restaurants/locations/ny/ronkonkoma/"
+                               class="text-rl-red hover:text-red-700 font-semibold flex items-center group">
+                                <span class="mr-2">Ronkonkoma</span>
+                                <span class="group-hover:translate-x-1 transition-transform">→</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.redlobster.com/seafood-restaurants/locations/ny/valley-stream/"
+                               class="text-rl-red hover:text-red-700 font-semibold flex items-center group">
+                                <span class="mr-2">Valley Stream</span>
+                                <span class="group-hover:translate-x-1 transition-transform">→</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Upstate New York -->
+                <div class="bg-rl-offwhite p-8 rounded-lg shadow-lg">
+                    <h3 class="text-2xl font-bold mb-6">Upstate New York</h3>
+                    <ul class="space-y-4">
+                        <li>
+                            <a href="https://www.redlobster.com/seafood-restaurants/locations/ny/colonie/"
+                               class="text-rl-red hover:text-red-700 font-semibold flex items-center group">
+                                <span class="mr-2">Colonie</span>
+                                <span class="group-hover:translate-x-1 transition-transform">→</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.redlobster.com/seafood-restaurants/locations/ny/horseheads/"
+                               class="text-rl-red hover:text-red-700 font-semibold flex items-center group">
+                                <span class="mr-2">Horseheads</span>
+                                <span class="group-hover:translate-x-1 transition-transform">→</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.redlobster.com/seafood-restaurants/locations/ny/liverpool/"
+                               class="text-rl-red hover:text-red-700 font-semibold flex items-center group">
+                                <span class="mr-2">Liverpool</span>
+                                <span class="group-hover:translate-x-1 transition-transform">→</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.redlobster.com/seafood-restaurants/locations/ny/middletown/"
+                               class="text-rl-red hover:text-red-700 font-semibold flex items-center group">
+                                <span class="mr-2">Middletown</span>
+                                <span class="group-hover:translate-x-1 transition-transform">→</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.redlobster.com/seafood-restaurants/locations/ny/new-hartford/"
+                               class="text-rl-red hover:text-red-700 font-semibold flex items-center group">
+                                <span class="mr-2">New Hartford</span>
+                                <span class="group-hover:translate-x-1 transition-transform">→</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.redlobster.com/seafood-restaurants/locations/ny/rochester/"
+                               class="text-rl-red hover:text-red-700 font-semibold flex items-center group">
+                                <span class="mr-2">Rochester</span>
+                                <span class="group-hover:translate-x-1 transition-transform">→</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.redlobster.com/seafood-restaurants/locations/ny/vestal/"
+                               class="text-rl-red hover:text-red-700 font-semibold flex items-center group">
+                                <span class="mr-2">Vestal</span>
+                                <span class="group-hover:translate-x-1 transition-transform">→</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- SEO Content -->
+            <div class="mt-16 space-y-8">
+                <div>
+                    <h2 class="text-2xl font-bold mb-4">Red Lobster Happy Hour in New York</h2>
+                    <p class="text-gray-700">Experience the best seafood deals in New York at Red Lobster's Happy Hour. From 3-6 PM daily at participating locations, enjoy $5 drinks and $2 off appetizers. With locations throughout the Empire State, from NYC to Rochester, there's always a Red Lobster nearby ready to serve you the freshest seafood. Please note that Happy Hour specials are not available at our Times Square location.</p>
+                </div>
+
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Popular New York Locations</h3>
+                    <p class="text-gray-700">Find Red Lobster restaurants across New York, from the bustling streets of NYC to Long Island and upstate cities like Rochester and Syracuse. Each participating location offers the same great Happy Hour deals and fresh seafood experience you've come to expect from Red Lobster, with easy access from major routes like I-95, I-87, and I-90.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-8">
+        <div class="container mx-auto px-4 text-center text-sm">
+            <p>This site is not affiliated with, endorsed by, or sponsored by Red Lobster.</p>
+            <p>All trademarks belong to their respective owners.</p>
+        </div>
+    </footer>
+</body>
+</html> 

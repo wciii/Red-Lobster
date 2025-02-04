@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Red Lobster Happy Hour - $5 Drinks & $2 Off Appetizers | RedLobsterHappyHour.com</title>
+    <meta name="description" content="Discover Red Lobster's Happy Hour deals! Enjoy $5 drinks and $2 off appetizers from 3-6 PM. Find the best seafood restaurant deals near you.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="./js/header.js"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'rl-red': '#B22222',
+                        'rl-navy': '#0B3D91',
+                        'rl-gold': '#FFD700',
+                        'rl-offwhite': '#FAF3E0',
+                    },
+                    fontFamily: {
+                        'inter': ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="font-inter bg-rl-offwhite">
+    <script>generateHeader();</script>
+    
+    <!-- Hero Section -->
+    <header class="bg-rl-navy text-white py-16">
+        <div class="container mx-auto px-4 text-center">
+            <h1 class="text-4xl md:text-6xl font-bold mb-4">
+                Red Lobster Happy Hour
+                <span class="block text-rl-gold mt-2">$5 Drinks & $2 Off Appetizers!</span>
+            </h1>
+            <p class="text-xl mb-8">Enjoy these deals from 3-6 PM at participating locations</p>
+            <a href="#locations" class="bg-rl-red hover:bg-red-700 text-white font-bold py-4 px-8 rounded-lg transition-all transform hover:scale-105">
+                Find a Red Lobster Near You →
+            </a>
+        </div>
+    </header>
+
+    <!-- Deal Highlights Section -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">Happy Hour Specials</h2>
+            <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                <!-- Drinks Card -->
+                <div class="bg-rl-offwhite p-8 rounded-lg shadow-lg hover:scale-105 transition-transform">
+                    <div class="text-4xl mb-4">🍹</div>
+                    <h3 class="text-2xl font-bold mb-4">$5 Drink Specials</h3>
+                    <ul class="space-y-2">
+                        <li>• House Margaritas</li>
+                        <li>• Draft Beer</li>
+                        <li>• House Wine</li>
+                    </ul>
+                </div>
+                <!-- Appetizers Card -->
+                <div class="bg-rl-offwhite p-8 rounded-lg shadow-lg hover:scale-105 transition-transform">
+                    <div class="text-4xl mb-4">🍤</div>
+                    <h3 class="text-2xl font-bold mb-4">$2 Off Appetizers</h3>
+                    <ul class="space-y-2">
+                        <li>• Shrimp Tacos</li>
+                        <li>• Mozzarella Sticks</li>
+                        <li>• Selected Appetizers</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEO Content Section -->
+    <section class="py-16 bg-rl-offwhite">
+        <div class="container mx-auto px-4 max-w-4xl">
+            <h2 class="text-3xl font-bold mb-8">Best Happy Hour Deals at Red Lobster</h2>
+            
+            <div class="space-y-8">
+                <div>
+                    <h3 class="text-2xl font-bold mb-4">What Time Is Red Lobster Happy Hour?</h3>
+                    <p class="text-gray-700">Join us for Happy Hour from 3-6 PM at participating Red Lobster locations. It's the perfect time to unwind with friends and enjoy our specially priced drinks and appetizers.</p>
+                </div>
+
+                <div>
+                    <h3 class="text-2xl font-bold mb-4">Which Locations Offer These Deals?</h3>
+                    <p class="text-gray-700">Happy Hour deals are available at most Red Lobster locations nationwide. Contact your local restaurant to confirm participation and exact timing.</p>
+                </div>
+
+                <div>
+                    <h3 class="text-2xl font-bold mb-4">Why Red Lobster Happy Hour Is Worth It</h3>
+                    <p class="text-gray-700">Experience the best of seafood dining at unbeatable prices. With $5 drinks and discounted appetizers, Red Lobster Happy Hour offers exceptional value for both casual dining and special occasions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- More Deals Section -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold mb-8">Want More Restaurant Deals?</h2>
+            <a href="https://happyhopper.app" class="text-rl-red hover:text-red-700 font-bold text-xl">
+                Check out even more happy hour deals on HappyHopper.app →
+            </a>
+        </div>
+    </section>
+
+    <!-- Official Link Section -->
+    <section class="bg-rl-navy text-white py-12">
+        <div class="container mx-auto px-4 text-center">
+            <p class="mb-4">For official Red Lobster Happy Hour details, visit</p>
+            <a href="https://www.redlobster.com" class="text-rl-gold hover:underline font-bold">
+                Red Lobster's Official Website
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-8">
+        <div class="container mx-auto px-4 text-center text-sm">
+            <p>This site is not affiliated with, endorsed by, or sponsored by Red Lobster.</p>
+            <p>All trademarks belong to their respective owners.</p>
+        </div>
+    </footer>
+</body>
+</html>
