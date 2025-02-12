@@ -55,14 +55,14 @@ function generateHeader() {
             <div class="container mx-auto px-4">
                 <div class="flex justify-between items-center py-4">
                     <!-- Logo/Home -->
-                    <a href="${basePath}index.html" class="flex items-center space-x-2">
+                    <a href="${basePath}" class="flex items-center space-x-2">
                         <span class="text-rl-red font-bold text-xl">Red Lobster</span>
                         <span class="text-gray-600">Happy Hour</span>
                     </a>
                     
                     <!-- Navigation Links -->
                     <div class="hidden md:flex space-x-8">
-                        <a href="${basePath}index.html" class="text-gray-700 hover:text-rl-red">Home</a>
+                        <a href="${basePath}" class="text-gray-700 hover:text-rl-red">Home</a>
                         <div class="relative group">
                             <button class="text-gray-700 hover:text-rl-red flex items-center">
                                 State List
@@ -73,7 +73,7 @@ function generateHeader() {
                             <div class="absolute left-0 mt-2 w-48 bg-white rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
                                 <div class="py-2 px-4 space-y-2 max-h-96 overflow-y-auto">
                                     ${stateLinks.map(state => `
-                                        <a href="${basePath}states/${state.path}.html" 
+                                        <a href="${basePath}states/${state.path}" 
                                            class="block text-gray-700 hover:text-rl-red">
                                             ${state.name}
                                         </a>
@@ -95,12 +95,12 @@ function generateHeader() {
                 <!-- Mobile Menu -->
                 <div class="md:hidden hidden" id="mobile-menu">
                     <div class="py-4 space-y-4">
-                        <a href="${basePath}index.html" class="block text-gray-700 hover:text-rl-red">Home</a>
+                        <a href="${basePath}" class="block text-gray-700 hover:text-rl-red">Home</a>
                         <div class="space-y-2">
                             <p class="text-gray-500 font-semibold">State List</p>
                             <div class="pl-4 space-y-2">
                                 ${stateLinks.map(state => `
-                                    <a href="${basePath}states/${state.path}.html" 
+                                    <a href="${basePath}states/${state.path}" 
                                        class="block text-gray-700 hover:text-rl-red">
                                         ${state.name}
                                     </a>
